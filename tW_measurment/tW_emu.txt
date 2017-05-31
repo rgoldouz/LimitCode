@@ -1,0 +1,30 @@
+max    1     number of categories
+jmax    3     number of samples minus one
+kmax    *     number of nuisance parameters
+-------------------------------------------------------------------------------------------------------------
+shapes * * emu_Limit_noSignal.root $PROCESS $PROCESS_$SYSTEMATIC
+-------------------------------------------------------------------------------------------------------------
+bin                                            TW_emu
+observation                                    224845
+-------------------------------------------------------------------------------------------------------------
+bin                                            TW_emu       TW_emu      TW_emu      TW_emu    
+process                                        0            1            2            3                        
+process                                        TW           TT           DY           other      
+rate                                           17497.9      187310.9    12546.1      10744.6
+-------------------------------------------------------------------------------------------------------------
+Luminosity lnN                                 1.025        1.025        1.025        1.025        
+Trigger lnN                                    1.01         1.01         1.01         1.01         
+TT_Normalisation lnN                           1.05         -            -            -
+TW_Normalisation lnN                           -            1.05         -            -
+DY_Normalisation lnN                           -            -            1.02         - 
+Othernormalisation_Norm lnN                    -            -            -            1.03       
+JetEnergyResolution_ shape                     1            1            1            1            
+PileUp_ shape                                  1            1            1            1            
+ElectronIDIsoScaleFactor_ shape                1            1            1            1            
+ElectronReconstructionScaleFactor_ shape       1            1            1            1            
+MuonIsoScaleFactor_ shape                      1            1            1            1            
+BtagScaleFactor_udsg_ shape                    1            1            1            1            
+BtagScaleFactor_bc_ shape                      1            1            1            1            
+JetEnergyScale_ shape                          1            1            1            1            
+MuonTrackEfficiencyScaleFactor_ shape          1            1            1            1            
+MuonIDScaleFactor_ shape                       1            1            1            1            
