@@ -1,0 +1,149 @@
+################ histograms name################
+data_obs	
+Signal	
+TW	
+TT	
+DY	
+other	
+Signal_JetEnergyResolution_Up	
+TW_JetEnergyResolution_Up	
+TT_JetEnergyResolution_Up	
+DY_JetEnergyResolution_Up	
+other_JetEnergyResolution_Up	
+Signal_PileUp_Down	
+TW_PileUp_Down	
+TT_PileUp_Down	
+DY_PileUp_Down	
+other_PileUp_Down	
+Signal_ElectronIDIsoScaleFactor_Down	
+TW_ElectronIDIsoScaleFactor_Down	
+TT_ElectronIDIsoScaleFactor_Down	
+DY_ElectronIDIsoScaleFactor_Down	
+other_ElectronIDIsoScaleFactor_Down	
+Signal_ElectronReconstructionScaleFactor_Down	
+TW_ElectronReconstructionScaleFactor_Down	
+TT_ElectronReconstructionScaleFactor_Down	
+DY_ElectronReconstructionScaleFactor_Down	
+other_ElectronReconstructionScaleFactor_Down	
+Signal_MuonIsoScaleFactor_Down	
+TW_MuonIsoScaleFactor_Down	
+TT_MuonIsoScaleFactor_Down	
+DY_MuonIsoScaleFactor_Down	
+other_MuonIsoScaleFactor_Down	
+Signal_ElectronReconstructionScaleFactor_Up	
+TW_ElectronReconstructionScaleFactor_Up	
+TT_ElectronReconstructionScaleFactor_Up	
+DY_ElectronReconstructionScaleFactor_Up	
+other_ElectronReconstructionScaleFactor_Up	
+Signal_BtagScaleFactor_udsg_Down	
+TW_BtagScaleFactor_udsg_Down	
+TT_BtagScaleFactor_udsg_Down	
+DY_BtagScaleFactor_udsg_Down	
+other_BtagScaleFactor_udsg_Down	
+Signal_BtagScaleFactor_bc_Down	
+TW_BtagScaleFactor_bc_Down	
+TT_BtagScaleFactor_bc_Down	
+DY_BtagScaleFactor_bc_Down	
+other_BtagScaleFactor_bc_Down	
+Signal_BtagScaleFactor_bc_Up	
+TW_BtagScaleFactor_bc_Up	
+TT_BtagScaleFactor_bc_Up	
+DY_BtagScaleFactor_bc_Up	
+other_BtagScaleFactor_bc_Up	
+Signal_BtagScaleFactor_udsg_Up	
+TW_BtagScaleFactor_udsg_Up	
+TT_BtagScaleFactor_udsg_Up	
+DY_BtagScaleFactor_udsg_Up	
+other_BtagScaleFactor_udsg_Up	
+Signal_JetEnergyScale_Down	
+TW_JetEnergyScale_Down	
+TT_JetEnergyScale_Down	
+DY_JetEnergyScale_Down	
+other_JetEnergyScale_Down	
+Signal_JetEnergyScale_Up	
+TW_JetEnergyScale_Up	
+TT_JetEnergyScale_Up	
+DY_JetEnergyScale_Up	
+other_JetEnergyScale_Up	
+Signal_MuonTrackEfficiencyScaleFactor_Down	
+TW_MuonTrackEfficiencyScaleFactor_Down	
+TT_MuonTrackEfficiencyScaleFactor_Down	
+DY_MuonTrackEfficiencyScaleFactor_Down	
+other_MuonTrackEfficiencyScaleFactor_Down	
+Signal_MuonIsoScaleFactor_Up	
+TW_MuonIsoScaleFactor_Up	
+TT_MuonIsoScaleFactor_Up	
+DY_MuonIsoScaleFactor_Up	
+other_MuonIsoScaleFactor_Up	
+Signal_PileUp_Up	
+TW_PileUp_Up	
+TT_PileUp_Up	
+DY_PileUp_Up	
+other_PileUp_Up	
+Signal_JetEnergyResolution_Down	
+TW_JetEnergyResolution_Down	
+TT_JetEnergyResolution_Down	
+DY_JetEnergyResolution_Down	
+other_JetEnergyResolution_Down	
+Signal_MuonIDScaleFactor_Up	
+TW_MuonIDScaleFactor_Up	
+TT_MuonIDScaleFactor_Up	
+DY_MuonIDScaleFactor_Up	
+other_MuonIDScaleFactor_Up	
+Signal_MuonTrackEfficiencyScaleFactor_Up	
+TW_MuonTrackEfficiencyScaleFactor_Up	
+TT_MuonTrackEfficiencyScaleFactor_Up	
+DY_MuonTrackEfficiencyScaleFactor_Up	
+other_MuonTrackEfficiencyScaleFactor_Up	
+Signal_MuonIDScaleFactor_Down	
+TW_MuonIDScaleFactor_Down	
+TT_MuonIDScaleFactor_Down	
+DY_MuonIDScaleFactor_Down	
+other_MuonIDScaleFactor_Down	
+Signal_ElectronIDIsoScaleFactor_Up	
+TW_ElectronIDIsoScaleFactor_Up	
+TT_ElectronIDIsoScaleFactor_Up	
+DY_ElectronIDIsoScaleFactor_Up	
+other_ElectronIDIsoScaleFactor_Up	
+
+
+
+########## event number ###########
+ee:
+data_obs: 38235
+Ctg Signal: 16891
+Ctw Signal: 2464.5
+Cphiq Signal: 2873.1
+TT: 34139.1
+TW: 2627.9
+DY: 1819.6
+other: 525.1
+emu:
+data_obs: 224845
+Ctg Signal: 92957
+Ctw Signal: 16409.8
+Cphiq Signal: 19130.5
+TT: 187310.9
+TW: 17497.9
+DY: 12546.1
+other: 10744.6
+mumu:
+data_obs: 71881
+Ctg Signal: 31834
+Ctw Signal: 4488.8
+Cphiq Signal: 5233.1
+TT: 64373.5
+TW: 4786.5
+DY: 3759.5
+other: 669.8
+ee+emu+mumu:
+data_obs: 334961
+Ctg Signal: 141682
+Ctw Signal: 23363.1
+Cphiq Signal: 27236.7
+TT: 285823.5
+TW: 24912.4
+DY: 18125.2
+other: 11939.5
+
+

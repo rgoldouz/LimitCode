@@ -1,0 +1,31 @@
+max    1     number of categories
+jmax    4     number of samples minus one
+kmax    *     number of nuisance parameters
+-------------------------------------------------------------------------------------------------------------
+shapes * * emu_ee_mumu_Limit_Ctg.root $PROCESS $PROCESS_$SYSTEMATIC
+-------------------------------------------------------------------------------------------------------------
+bin                                            TOPEFT_com
+observation                                    334961
+-------------------------------------------------------------------------------------------------------------
+bin                                            TOPEFT_com   TOPEFT_com   TOPEFT_com   TOPEFT_com   TOPEFT_com    
+process                                        0            1            2            3            4                        
+process                                        Signal       TT           TW           DY           other      
+rate                                           141683.0     285823.5     24912.4      18125.2      11939.5
+-------------------------------------------------------------------------------------------------------------
+Luminosity lnN                                 1.025        1.025        1.025        1.025        1.025      
+Trigger lnN                                    1.01         1.01         1.01         1.01         1.01       
+Signal_Normalisation lnN                       1.05         -            1.05         -            -     
+TT_Normalisation lnN                           -            -            -            1.05         -      
+TW_Normalisation lnN                           -            1.05         -            -            -      
+DY_Normalisation lnN                           -            -            -            1.02         -
+Othernormalisation_Norm lnN                    -            -            -            -            1.03        
+JetEnergyResolution_ shape                     1            1            1            1            1      
+PileUp_ shape                                  1            1            1            1            1      
+ElectronIDIsoScaleFactor_ shape                1            1            1            1            1      
+ElectronReconstructionScaleFactor_ shape       1            1            1            1            1      
+MuonIsoScaleFactor_ shape                      1            1            1            1            1      
+BtagScaleFactor_udsg_ shape                    1            1            1            1            1      
+BtagScaleFactor_bc_ shape                      1            1            1            1            1      
+JetEnergyScale_ shape                          1            1            1            1            1      
+MuonTrackEfficiencyScaleFactor_ shape          1            1            1            1            1      
+MuonIDScaleFactor_ shape                       1            1            1            1            1      
